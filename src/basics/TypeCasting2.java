@@ -6,8 +6,8 @@ public class TypeCasting2 {
 		    int myInt = 9;
 		    double myDouble = myInt; // Automatic casting: int to double , called as Widening Casting
 
-		    System.out.println(myInt);      // Outputs 9
-		    System.out.println(myDouble);   // Outputs 9.0
+		    System.out.println("Integer Value is " +myInt);      // Outputs 9
+		    System.out.println("My Double value is " +myDouble);   // Outputs 9.0
 		  
 
 		    

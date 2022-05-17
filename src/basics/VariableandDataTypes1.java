@@ -1,6 +1,7 @@
 package basics;
 
 public class VariableandDataTypes1 {
+	
 
 	public static void main(String[] args) { // Main Method starting or Execution point of program
 
