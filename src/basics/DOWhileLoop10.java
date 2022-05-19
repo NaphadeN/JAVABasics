@@ -7,7 +7,7 @@ public class DOWhileLoop10 {
 	    do{    
 	        System.out.println(i);    //First Execute the code and then check the condition 
 	    i++;    
-	    }while(i<=10);    
+	    }while(i<=10);                      // Condition
 	
 	    
 	}
