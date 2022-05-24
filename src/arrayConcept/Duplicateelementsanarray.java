@@ -9,7 +9,7 @@ int arr []= new int [] {3,5,4,4,5,10};		// First Iteration : Compare value to 3-
                                        //Third Itration : Compare value to 4-4,4-5,4-10
                                     //Fourth Itration : Compare value to 4-5,4-10
  
-System.out.println("Duplicate Element in Array");
+System.out.println("Duplicate Element in Array" +arr.length);
      
       for(int i=0;i<arr.length;i++) {
     	  for(int j=i+1;j<arr.length;j++) {
