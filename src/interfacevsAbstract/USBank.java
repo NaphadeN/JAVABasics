@@ -2,7 +2,7 @@ package interfacevsAbstract;
 
 public interface USBank {
 	
-	 int min_bal=100;
+	  int min_bal=100;
 	
 	public void debit();
 		
@@ -19,6 +19,7 @@ public void transfermoney();
 // No Static Methods
 // Interface is Method Prototype
 // Variables are static in nature by default. No need to write static in front of any var
-// 100% Abstraction debit, credit,transfermoney are Abstract Methods
-// All Above 
+// 100% Abstraction 
+// All Above debit, credit,transfermoney are Abstract Methods without method Body
+
 

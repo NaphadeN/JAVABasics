@@ -1,6 +1,6 @@
 package inheritence;
 
-public class Car extends Vehicle {                  // Parent Class
+public class Car extends Vehicle {    // Parent Class
 
 	public void start() { 
 		System.out.println("start");
