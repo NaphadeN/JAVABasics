@@ -6,9 +6,12 @@ public class A {
 	  
 	  System.out.println("Parent Class");
   }
+  
 	public static void main(String[] args) {
 		
 	}
+	
+	
 public A(int i) {
 	System.out.println("My Parent Class Constructor with one Argument" +i );
 	

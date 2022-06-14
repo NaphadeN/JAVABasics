@@ -5,7 +5,7 @@ public class TestBank {
 	public static void main(String[] args) {
 		//USBank U= new USBank(); Not Allowed.Cannot create Object of Interface
 		
-		ICICI I= new ICICI();
+		ICICI I= new ICICI();    // ICICI is class not interface so that we are creating Obj here.
 		I.debit();
 		I.credit();
 		I.transfermoney();  // USBANK 
@@ -27,6 +27,8 @@ public class TestBank {
 		Us.debit();
 	Us.transfermoney();
 
+
+	
 	}
 
 }

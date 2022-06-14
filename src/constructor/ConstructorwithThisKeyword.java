@@ -3,7 +3,7 @@ package constructor;
 public class ConstructorwithThisKeyword {
 	
 	String name;
-	int age=4;
+	int age;
 	
 	public ConstructorwithThisKeyword(String name,int age) {
 		System.out.println(name);
@@ -11,6 +11,8 @@ public class ConstructorwithThisKeyword {
 		
 		this.name=name; // this keyword use to initialize class var.in the constructor
 		this.age=age;
+		
+		
 		
 	}
 

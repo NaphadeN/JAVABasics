@@ -5,10 +5,10 @@ public class EmpData {
 	
 //1. private data var.: so that cannot be accessed directly from outside the class
 // 2. Encapsulation Variables always declared as private
-//3. Hiding data members. It can eb Var or Methods
+//3. Hiding data members. It can be Var or Methods
 //4. For use of high level security, we use Encapsulation
 //5. Its not necessary to declare the getter and setter methods everytime, we can define only var as private.
-//6. We can use private keyword only in class where wwe used the private keyword. Outside class we cannot use the private keyword.
+//6. We can use private keyword only in class where we used the private keyword. Outside class we cannot use the private keyword.
 
 	private int ssn;
 	private String QA;
