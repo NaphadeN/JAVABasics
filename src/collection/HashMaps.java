@@ -8,12 +8,10 @@ public class HashMaps {
 
 	public static void main(String[] args) {
 		// hashMap is class implements Map Interface
-		// extends AbstractMap
 		//It contains only unique elements 
 		// store the - key - value pair 
 
 		// It may have one null key and multiple null values 
-		// It maintains no order 
 		
 		
 		HashMap<Integer,String> hm = new HashMap<Integer,String> ();
@@ -28,7 +26,7 @@ public class HashMaps {
 
 		// How to Print all values using Hashmaps
 		
-		for (Entry m : hm.entrySet()) {
+		for (Entry m : hm.entrySet()) {                                 // Map.Entry is a raw type.
 			System.out.println(m.getKey() +" " +m.getValue());
 			
 		}
