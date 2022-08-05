@@ -106,7 +106,6 @@ public class LinkedList {
 				System.out.println(emp.age);
 				System.out.println(emp.dept);
 			
-			
 		
 			
 	System.out.println("DDDDDDD");

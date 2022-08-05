@@ -4,12 +4,14 @@ public interface USBank {
 	
 	  int min_bal=100;
 	
-	public abstract void debit();
+	public  abstract void debit();
 		
 public abstract void credit();
 		
                                                                        // System.out.println("Debit"); // Body not allowed
 public abstract void transfermoney();
+
+
 	
 }
 
