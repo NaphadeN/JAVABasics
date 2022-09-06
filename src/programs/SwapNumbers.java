@@ -12,9 +12,18 @@ public class SwapNumbers {
 	a=t1;
 	System.out.println("After swap " +a +" "+ + b);
 	 
-	 
- }
 	
+	// Second way to Swap
+	
+	a=a+b;
+	b=a-b;
+	a=a-b;
+
+	System.out.println("After swap " +a +" "+ + b);
+
+	
+ }
+
 	
 	
 }
